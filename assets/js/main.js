@@ -262,5 +262,4 @@ function changeLanguage() {
 
   }
 }
-
 changeLanguage();
