@@ -249,7 +249,7 @@ function changeLanguage() {
   console.log(hash);
   if (!allLang.includes(hash)) {
     location.href = window.location.pathname + '#ro';
-    location.reload();
+    window.location.pathname.reload();
   }
   select.value = hash;
   document.querySelector('title').innerHTML = langArr['unit'][hash];
